@@ -4,7 +4,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div className="navbar justify-between bg-base-100 lg:w-3/4 mx-auto">
+        <div className="navbar justify-between lg:w-3/4 mx-auto">
             <div className="">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost  lg:hidden">

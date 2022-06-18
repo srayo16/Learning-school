@@ -12,6 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <h1>Starting Test Successful</h1>
         <button className="btn btn-primary">Button</button>
       </main>
     </div>

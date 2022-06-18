@@ -13,6 +13,7 @@ export default function Home() {
 
       <main>
         <button className="btn btn-primary">Button</button>
+        <button className="btn btn-primary">Button added by joy</button>
       </main>
     </div>
   )

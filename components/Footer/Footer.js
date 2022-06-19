@@ -9,35 +9,35 @@ const Footer = () => {
                 <div className="container mx-auto">
                     <div className="grid lg:grid-cols-4 md:grid-cols-2 py-16 px-8 gap-4 ">
                         <div>
-                            <h3 className="mb-3 font-bold">জনপ্রিয় স্কিল ডেভেলপমেন্ট কোর্স</h3>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">ঘরে বসে Spoken English</li></Link>
+                            <h3 className="mb-3 font-bold text-lg">Popular Skill Development Courses</h3>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">Spoken English from Home</li></Link>
                             <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">IELTS Course by Munzereen Shahid</li></Link>
                             <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">Facebook Marketing</li></Link>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">২৪ ঘণ্টায় কোরআন শিখি</li></Link>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">ঘরে বসে Freelancing</li></Link>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">Learn Al-Quran in 24 Hours</li></Link>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">Freelancing from Home</li></Link>
                         </div>
                         <div>
-                            <h3 className="mb-3 font-bold">জনপ্রিয় স্কিল ডেভেলপমেন্ট কোর্স</h3>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">HSC’22 শেষ মুহূর্তের প্রস্তুতি কোর্স</li></Link>
+                            <h3 className="mb-3 font-bold text-lg">HSC Courses</h3>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">HSC’22 Last Moment Preparation Course</li></Link>
                             <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">HSC 2023 Short Syllabus [Crash Course]</li></Link>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">HSC - শর্ট সিলেবাস টেস্ট পেপার সল্ভ কোর্স (Bangla, English, ICT)</li></Link>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">HSC - শর্ট সিলেবাস টেস্ট পেপার সল্ভ কোর্স (Physics, Chemistry, Math, Biology)</li></Link>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">HSC - শর্ট সিলেবাস টেস্ট পেপার সল্ভ কোর্স (Accounting, Finance)</li></Link>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">HSC - Short Syllabus Test Paper Solve Course (Bangla, English, ICT)</li></Link>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">HSC - Short Syllabus Test Paper Solve Course (Physics, Chemistry, Math, Biology)</li></Link>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">HSC - Short Syllabus Test Paper Solve Course (Accounting, Finance)</li></Link>
                         </div>
                         <div>
-                            <h3 className="mb-3 font-bold">অনলাইন ব্যাচ</h3>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">৯ম - ১০ম শ্রেণি অনলাইন ব্যাচ</li></Link>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">৮ম শ্রেণি অনলাইন ব্যাচ</li></Link>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">সপ্তম শ্রেণি অনলাইন ব্যাচ</li></Link>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">ষষ্ঠ শ্রেণি অনলাইন ব্যাচ</li></Link>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">পঞ্চম শ্রেণি অনলাইন ব্যাচ</li></Link>
+                            <h3 className="mb-3 font-bold text-lg">Online Batch</h3>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">9th - 10th Class Online Batch</li></Link>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">8th Class Online Batch</li></Link>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">7th Class Online Batch</li></Link>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">6th Class Online Batch</li></Link>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">5th Class Online Batch</li></Link>
                         </div>
                         <div>
-                            <h3 className="mb-3 font-bold">চাকরি প্রস্তুতি</h3>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">ব্যাংক জবস কোর্স</li></Link>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">বিসিএস প্রিলি কোর্স</li></Link>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">বিসিএস প্রশ্ন সমাধান</li></Link>
-                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা কোর্স</li></Link>
+                            <h3 className="mb-3 font-bold text-lg">Job Preparation</h3>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">Bank Job Course</li></Link>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">BCS Preli Course</li></Link>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">BCS Question Solve</li></Link>
+                            <Link href="/"><li className="list-none mb-3 cursor-pointer hover:text-red-500 text-sm">Primary Assistant Teacher Recruitment Examination Course</li></Link>
                         </div>
                     </div>
                 </div>

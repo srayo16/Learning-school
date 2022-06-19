@@ -10,6 +10,7 @@ import JobExam from '../components/JobExam/JobExam'
 import LearnAnything from '../components/LearnAnything/LearnAnything'
 import Review from '../components/Review/Review'
 import SkillDevelopment from '../components/SkillDevelopment/SkillDevelopment'
+import Footer from '../components/Footer/Footer'
 
 import styles from '../styles/Home.module.css'
 
@@ -26,15 +27,16 @@ export default function Home() {
         <Header />
         <Banner />
         <LearnAnything />
-        <CrashCourse/>
-        <ClassesOne/>
-        <AdmissionPrep/>
-        <JobExam/>
-        <SkillDevelopment/>
-        <Review/>
-        <Achievement/>
-
+        <CrashCourse />
+        <ClassesOne />
+        <AdmissionPrep />
+        <JobExam />
+        <SkillDevelopment />
+        <Review />
+        <Achievement />
       </main>
+
+      <Footer/>
     </div>
   )
 }

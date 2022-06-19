@@ -28,7 +28,7 @@ const Header = () => {
             </div>
             <div className="navbar-end text-xl">
                 <a className='mx-2 hidden md:block'>English</a>
-            <a className="justify-end bg-gray-600 rounded font-semibold  px-6 text-white py-2">Log in</a>
+            <Link href="/auth/login"><a className="justify-end bg-gray-600 rounded font-semibold  px-6 text-white py-2">Log in</a></Link>
             </div>
         </div>
     );

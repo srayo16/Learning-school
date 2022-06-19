@@ -29,6 +29,65 @@ export default function LearnAnything() {
                     <p className='text-lg font-bold text-gray-700'>Courses</p>
                 </div>
             </div>
+            <div className='container mx-auto my-16'>
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-0'>
+                    <div className="card bg-base-100 mx-auto">
+                        <figure className="px-10 pt-10">
+                            <img src="https://cdn.10minuteschool.com/images/Landing_page/Video%20lecture.svg" alt="Shoes" className="rounded-xl" />
+                        </figure>
+                        <div className="card-body items-center text-center">
+                            <h2 className="card-title">Watch video lectures</h2>
+                            <p className='px-5  antialiased text-base text-gray-500 hidden md:block'>Learn at your own pace from our 20,000+ videos</p>
+                        </div>
+                    </div>
+                    <div className="card bg-base-100 mx-auto">
+                        <figure className="px-10 pt-10">
+                            <img src="https://cdn.10minuteschool.com/images/Landing_page/Exercise.svg" alt="Shoes" className="rounded-xl" />
+                        </figure>
+                        <div className="card-body items-center text-center mx-auto">
+                            <h2 className="card-title">Practice anytime</h2>
+                            <p className='px-5  antialiased text-base text-gray-500 hidden md:block'>Instant scores, explanations and leaderboards!</p>
+                        </div>
+                    </div>
+                    <div className="card bg-base-100 mx-auto">
+                        <figure className="px-10 pt-10">
+                            <img src="https://cdn.10minuteschool.com/images/Landing_page/LIve%20Class.svg" alt="Shoes" className="rounded-xl" />
+                        </figure>
+                        <div className="card-body items-center text-center">
+                            <h2 className="card-title">Attend live classes</h2>
+                            <p className='px-5  antialiased text-base text-gray-500 hidden md:block'>Daily live classes help you maintain your routine</p>
+                        </div>
+                    </div>
+                    <div className="card bg-base-100 mx-auto">
+                        <figure className="px-10 pt-10">
+                            <img src="https://cdn.10minuteschool.com/images/Landing_page/Lecture%20sheet.svg" alt="Shoes" className="rounded-xl" />
+                        </figure>
+                        <div className="card-body items-center text-center">
+                            <h2 className="card-title">Every note you will ever need</h2>
+                            <p className='px-5  antialiased text-base text-gray-500 hidden md:block'>Access our lecture sheets and interactive books</p>
+                        </div>
+                    </div>
+                    <div className="card bg-base-100 mx-auto">
+                        <figure className="px-10 pt-10">
+                            <img src="https://cdn.10minuteschool.com/images/Landing_page/Daily%20result%20and%20leaderboard.svg" alt="Shoes" className="rounded-xl" />
+                        </figure>
+                        <div className="card-body items-center text-center">
+                            <h2 className="card-title">Daily results and leaderboards</h2>
+                            <p className='px-5  antialiased text-base text-gray-500 hidden md:block'>See where you stand among your friends</p>
+                        </div>
+                    </div>
+                    <div className="card bg-base-100 mx-auto">
+                        <figure className="px-10 pt-10">
+                            <img src="https://cdn.10minuteschool.com/images/Landing_page/ask%20question.svg" alt="Shoes" className="rounded-xl" />
+                        </figure>
+                        <div className="card-body items-center text-center">
+                            <h2 className="card-title">Ask your teacher</h2>
+                            <p className='px-5  antialiased text-base text-gray-500 hidden md:block'>Get your doubts solved within our platform</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }

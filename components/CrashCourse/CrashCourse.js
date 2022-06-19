@@ -7,7 +7,7 @@ const CrashCourse = () => {
         <div className='container mx-auto my-16'>
             <h1 className='text-4xl font-semibold text-center'>Special Crash Course</h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-y-10 gap-x-0 mt-10'>
-                <div className="card card-compact w-80 lg:w-96 bg-base-100 border mx-auto hover:mb-5">
+                <div className="card card-compact w-80  lg:w-96 bg-base-100 border mx-auto hover:-mt-5 mb-auto duration-300 relative ease-in-out bg-no-repeat bg-left-top">
                     <figure><img src="https://cdn.10minuteschool.com/lg/images/thumbnails/HSC_2023_Short_Syllabus_Crash_Course_Course_Thumbnail_1.91x1.jpg" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">HSC 2023 Short Syllabus [Crash...</h2>
@@ -20,7 +20,7 @@ const CrashCourse = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact w-80 lg:w-96 bg-base-100 border mx-auto">
+                <div className="card card-compact w-80 lg:w-96 bg-base-100 border mx-auto hover:-mt-5 mb-auto duration-300 relative ease-in-out bg-no-repeat bg-left-top">
                     <figure><img src="https://cdn.10minuteschool.com/lg/images/thumbnails/hsc-22-shesh-muhurter-prostuti-thumbnail.jpg" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">HSC’22 শেষ মুহূর্তের প্রস্তুতি কোর্স</h2>
@@ -34,7 +34,7 @@ const CrashCourse = () => {
                     </div>
                 </div>
 
-                <div className="card card-compact w-80 lg:w-96 bg-base-100 border mx-auto">
+                <div className="card card-compact w-80 lg:w-96 bg-base-100 border mx-auto hover:-mt-5 mb-auto duration-300 relative ease-in-out bg-no-repeat bg-left-top">
                     <figure><img src="https://cdn.10minuteschool.com/lg/images/thumbnails/Sesh-Muhurter-Prostuti-SSC-2022.jpg" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">SSC 22 শেষ মুহূর্তের প্রস্তুতি কোর্স</h2>

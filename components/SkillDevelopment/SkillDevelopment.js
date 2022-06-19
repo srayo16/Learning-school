@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const SkillDevelopment = () => {
     return (
-        <section>
+        <section className='py-16'>
             <div className='text-center'>
                 <h1 className='text-3xl font-semibold'>Skill Development Courses</h1>
                 <h2 className='text-gray-500 text-lg my-4'>Which skill will you develop today?</h2>
@@ -20,8 +20,8 @@ const SkillDevelopment = () => {
 
                 </div>
             </div>
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 container mx-auto py-16 gap-5'>
-                <div className="card w-96 bg-base-100 shadow-xl  cursor-pointer hover:shadow-lg hover:translate-y-2 transition">
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 container mx-auto py-11 gap-5'>
+                <div className="card w-96 bg-base-100 shadow-xl  cursor-pointer hover:drop-shadow-lg hover:-translate-y-4 transition duration-300">
                     <figure><img src="https://cdn.10minuteschool.com/images/Thumbnails/Ghore-boshe-Spoken-English-Course-Thumbnail.jpg" alt="English Spoken Course" /></figure>
                     <div className="card-body">
                         <h2 className="text-center text-xl font-semibold">English Spoken From Home</h2>
@@ -30,7 +30,7 @@ const SkillDevelopment = () => {
                         <h2 className='text-lg font-semibold text-green-700'>See Details</h2>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl cursor-pointer hover:shadow-lg hover:translate-y-2 transition">
+                <div className="card w-96 bg-base-100 shadow-xl cursor-pointer hover:drop-shadow-lg hover:-translate-y-4 transition duration-300">
                     <figure><img src="https://cdn.10minuteschool.com/images/Thumbnails/IELTS-Course-Thumbnail.jpg" /></figure>
                     <div className="card-body">
                         <h2 className="text-center text-xl font-semibold">IELTS Course by Munzereen Sha...</h2>
@@ -39,7 +39,7 @@ const SkillDevelopment = () => {
                         <h2 className='text-lg font-semibold text-green-700'>See Details</h2>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl cursor-pointer hover:shadow-lg hover:translate-y-2 transition">
+                <div className="card w-96 bg-base-100 shadow-xl cursor-pointer hover:drop-shadow-lg hover:-translate-y-4 transition duration-300">
                     <figure><img src="https://cdn.10minuteschool.com/images/Thumbnails/24-ghontay-quran-shikhi-Course-Thumbnail-.jpg" /></figure>
                     <div className="card-body">
                         <h2 className="text-center text-xl font-semibold">Learn Al-Quran in 24 Hours</h2>

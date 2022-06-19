@@ -22,7 +22,7 @@ const Banner = () => {
   return (
     <div className='lg:min-h-screen bg-gray-700 py-16'>
       <div className="pb-8">
-        <h1 className="text-4xl text-white text-center py-4">Special discount!</h1>
+        <h1 className="text-4xl text-white text-center py-4">Special Discount!</h1>
         <p className="text-white text-center pb-8 text-xl pt-4">Throughout the month of June, various courses of Ten Minute School can be done more saving Money!</p>
       </div>
       <>

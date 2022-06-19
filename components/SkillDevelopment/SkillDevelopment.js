@@ -50,6 +50,10 @@ const SkillDevelopment = () => {
                 </div>
             </div>
 
+            <div className='flex justify-center'>
+                <button className='btn bg-green-700'>Explore All Skill Development Courses</button>
+            </div>
+
         </section>
     );
 };

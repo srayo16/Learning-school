@@ -20,7 +20,7 @@ const SkillDevelopment = () => {
 
                 </div>
             </div>
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 container mx-auto py-11 gap-5'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 justify-items-center container mx-auto py-11 gap-5'>
                 <div className="card w-96 bg-base-100 shadow-xl  cursor-pointer hover:drop-shadow-lg hover:-translate-y-4 transition duration-300">
                     <figure><img src="https://cdn.10minuteschool.com/images/Thumbnails/Ghore-boshe-Spoken-English-Course-Thumbnail.jpg" alt="English Spoken Course" /></figure>
                     <div className="card-body">
@@ -48,6 +48,10 @@ const SkillDevelopment = () => {
                         <h2 className='text-lg font-semibold text-green-700'>See Details</h2>
                     </div>
                 </div>
+            </div>
+
+            <div className='flex justify-center'>
+                <button className='btn bg-green-700'>Explore All Skill Development Courses</button>
             </div>
 
         </section>

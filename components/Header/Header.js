@@ -17,7 +17,7 @@ const Header = () => {
                         <li><a>Item 3</a></li>
                     </ul>
                 </div>
-                <img className='md:mr-4' src='https://cdn.10minuteschool.com/images/svg/10mslogo-svg.svg' alt='' width={150} height={100} />
+                <Link href="/"><img className='md:mr-4' src='https://cdn.10minuteschool.com/images/svg/10mslogo-svg.svg' alt='' width={150} height={100} /></Link>
             </div>
             <div className="text-xl text-gray-700 navbar-center hidden lg:flex">
                 <Link href='/academic'><a className='mx-2 px-2'>Class 1-12</a></Link>

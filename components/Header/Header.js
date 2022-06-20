@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { CgLogIn } from 'react-icons/cg';
+
 
 const Header = () => {
     return (
@@ -17,7 +19,7 @@ const Header = () => {
                         <li><a>Item 3</a></li>
                     </ul>
                 </div>
-                <img className='md:mr-4' src='https://cdn.10minuteschool.com/images/svg/10mslogo-svg.svg' alt='' width={150} height={100} />
+                <Link href="/"><img className='md:mr-4' src='https://cdn.10minuteschool.com/images/svg/10mslogo-svg.svg' alt='' width={150} height={100} /></Link>
             </div>
             <div className="text-xl text-gray-700 navbar-center hidden lg:flex">
                 <Link href='/academic'><a className='mx-2 px-2'>Class 1-12</a></Link>
@@ -28,7 +30,7 @@ const Header = () => {
             </div>
             <div className="navbar-end text-xl">
                 <a className='mx-2 hidden md:block'>English</a>
-            <Link href="/auth/login"><a className="justify-end bg-gray-600 rounded font-semibold  px-6 text-white py-2">Log in</a></Link>
+                <Link href="/auth/login"><a className="justify-end bg-gray-600 rounded font-semibold  px-6 text-white py-2 flex items-center"><span className='mr-1'><CgLogIn size={18}/></span> Log in</a></Link>
             </div>
         </div>
     );

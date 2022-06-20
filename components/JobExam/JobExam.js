@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const JobExam = () => {
   return (
-    <div className="bg-blue-100 py-20">
+    <div className="bg-[#F3F4F6] py-20">
       <div>
         <h2 className="text-3xl text-center font-bold">Job Exam Preparation</h2>
         <p className="text-xl text-center my-5 text-[#525252]">

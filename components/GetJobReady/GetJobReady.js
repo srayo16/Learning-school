@@ -6,7 +6,7 @@ const GetJobReady = () => {
 
     useEffect(() => {
         const readyJobFetchData = async () => {
-            const recruitmentCourse = await fetch('https://warm-retreat-39685.herokuapp.com/recruitment')
+                await fetch('https://warm-retreat-39685.herokuapp.com/recruitment')
                 .then(res => res.json())
                 .then(data => setReadyJobDatas(data))
         }

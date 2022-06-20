@@ -6,7 +6,7 @@ const Admission = () => {
 
     useEffect(() => {
         const admissionFetchData = async () => {
-            const admissionData = await fetch('https://warm-retreat-39685.herokuapp.com/admission')
+                await fetch('https://warm-retreat-39685.herokuapp.com/admission')
                 .then(res => res.json())
                 .then(data => setAdmissionDatas(data))
         }

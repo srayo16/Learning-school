@@ -40,7 +40,7 @@ const Admission = () => {
             <div className='grid lg:grid-cols-4 md:grid-cols-2 justify-items-center gap-5 mb-16'>
                 {
                     admissionDatas.map(admissionData =>
-                        <div key={admissionData.id} className="bg-slate-100 lg:w-[300px] rounded-xl border cursor-pointer">
+                        <div key={admissionData.id} className="lg:w-[300px] rounded-xl border border-gray-300 cursor-pointer hover:drop-shadow-lg hover:-translate-y-4 transition duration-300">
                             <img
                                 className="rounded-t-lg"
                                 src={admissionData.admissionImg}
@@ -56,7 +56,7 @@ const Admission = () => {
                                     </h4>
                                     <div className="border"></div>
                                     <div className="flex justify-between items-center px-4">
-                                        <p className='text-lg font-semibold'><span>৳</span> {admissionData.admissionPrice}</p>
+                                        <p className='text-xl font-semibold'><span>৳</span> {admissionData.admissionPrice}</p>
                                         <a className="text-lg font-semibold cursor-pointer text-green-700 py-2">
                                             See Details
                                         </a>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Loading from '../Shared/Loading';
 
 const GetJobReady = () => {
 
@@ -6,12 +7,16 @@ const GetJobReady = () => {
 
     useEffect(() => {
         const readyJobFetchData = async () => {
-                await fetch('https://warm-retreat-39685.herokuapp.com/recruitment')
+            await fetch('https://warm-retreat-39685.herokuapp.com/recruitment')
                 .then(res => res.json())
                 .then(data => setReadyJobDatas(data))
         }
         readyJobFetchData();
     }, [])
+
+    if (!readyJobDatas.length > 0) {
+        return <Loading></Loading>
+    }
 
     return (
         <section className='lg:w-3/4 mx-auto'>

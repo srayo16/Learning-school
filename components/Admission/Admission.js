@@ -1,17 +1,22 @@
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
+import Loading from '../Shared/Loading';
 
 const Admission = () => {
     const [admissionDatas, setAdmissionDatas] = useState([]);
 
     useEffect(() => {
         const admissionFetchData = async () => {
-                await fetch('https://warm-retreat-39685.herokuapp.com/admission')
+            await fetch('https://warm-retreat-39685.herokuapp.com/admission')
                 .then(res => res.json())
                 .then(data => setAdmissionDatas(data))
         }
         admissionFetchData();
     }, [])
+
+    if (!admissionDatas.length > 0) {
+        return <Loading></Loading>
+    }
 
     return (
         <section className='lg:w-3/4 mx-auto'>

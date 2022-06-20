@@ -59,7 +59,7 @@ const Banner = () => {
           modules={[Pagination, Navigation]}
           className="mySwiper lg:w-3/4"
         >
-          {images.map((image, index) => <SwiperSlide key={index} className='align-middle rounded-md justify-center'> <img src={image} alt="" /></SwiperSlide>)}
+          {images.map((image, index) => <SwiperSlide key={index} className='align-middle rounded-md justify-center'> <img src={image} alt="" className="rounded-lg"/></SwiperSlide>)}
 
         </Swiper>
       </>

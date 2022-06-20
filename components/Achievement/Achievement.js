@@ -60,7 +60,7 @@ const Achievement = () => {
             {/* mobile app area */}
 
             <div className="bg-black rounded-2xl">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-2 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-2 items-center lg:w-3/4">
 
                     <div className="px-5 py-6">
 
@@ -97,28 +97,17 @@ const Achievement = () => {
                                 <p className="ml-2 text-sm font-semibold text-white">Course Notification</p>
                             </div>
 
-
-
-
-
                         </div>
 
                         <div className="flex pt-5 gap-4">
                             <Image className="border-2 border-white cursor-pointer" src="https://cdn.10minuteschool.com/images/Landing_page/playstore.png" width={180} height={60} alt="playstore" />;
                             <Image className="border-2 border-white" src="https://cdn.10minuteschool.com/images/Landing_page/appstore.png" width={180} height={60} alt="playstore" />;
                         </div>
-
-
                     </div>
 
                     <div className="p-3 px-12">
-
                         <Image src="https://10minuteschool.com/assets/icons/home-page/app-download.png" width={80} height={70} layout="responsive" alt="" />
-
-
-
                     </div>
-
 
                 </div>
             </div>
@@ -133,7 +122,7 @@ const Achievement = () => {
 
                     </div>
                     <div className="justify-self-center">
-                        <Image src="https://cdn.10minuteschool.com/home/join.jpg" height="180" width="300"alt="" />
+                        <Image src="https://cdn.10minuteschool.com/home/join.jpg" height="180" width="300" alt="" />
                     </div>
                 </div>
             </div>
